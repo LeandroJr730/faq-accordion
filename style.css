@@ -1,3 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(275, 100%, 97%);
+  font-family: "Work Sans", sans-serif;
+}
+#container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.background-pattern {
+  background-image: url(/assets/images/background-pattern-desktop.svg);
+  width: 100%;
+  height: 250px;
+}
+#main-container {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  border: 3px solid;
+}
+h1 object {
+  width: 1.4rem;
+  vertical-align: baseline;
+}
+button {
+  border: none;
+  background-color: transparent;
+  vertical-align: middle;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
