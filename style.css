@@ -22,7 +22,7 @@ body {
   top: 50%;
   text-align: center;
   height: 500px;
-  width: 350px;
+  width: 310px;
   background-color: white;
   border-radius: 10px;
   padding: 25px;
@@ -38,20 +38,31 @@ h1 object {
 p {
   font-weight: 600;
   text-align: left;
-  margin: 30px 30px 0px 0px;
+  margin: 20px 50px 0px 0px;
 }
-
+hr {
+  margin-top: 20px;
+  border-color: hsla(0, 0%, 90%, 0.3);
+}
 button {
   border: none;
   background-color: transparent;
-  vertical-align: middle;
   border-radius: 100%;
   height: 30px;
   cursor: pointer;
   float: right;
+  margin-top: -2.5em;
 }
 .icon-plus {
   content: url(assets/images/icon-plus.svg);
+}
+label {
+  font-weight: 400;
+  text-align: left;
+  font-size: 13px;
+  padding: 5px;
+  color: hsl(0, 0%, 50%);
+  margin-top: 10px;
 }
 
 /* FOR DESKTOP */
