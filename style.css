@@ -64,6 +64,12 @@ label {
   color: hsl(0, 0%, 50%);
   margin-top: 10px;
 }
+.hide-text {
+  display: none;
+}
+.show-text {
+  display: block;
+}
 
 /* FOR DESKTOP */
 /* LEANDRO DO NOT FORGET TO CHANGE MIN-WIDTH TO 375px */
@@ -82,7 +88,7 @@ label {
 }
 .attribution {
   position: fixed;
-  top: 95%;
+  top: 680px;
   font-size: 11px;
   text-align: center;
 }
