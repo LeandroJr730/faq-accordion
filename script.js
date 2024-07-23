@@ -1,4 +1,4 @@
-let labels = document.querySelectorAll("label");
+const details = document.querySelectorAll(".details");
 
 buttons.forEach((button) => {
   button.addEventListener("click", showText);

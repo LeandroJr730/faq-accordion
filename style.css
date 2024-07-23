@@ -55,7 +55,7 @@ label {
 }
 .summary {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   align-items: center;
   margin: 18px 0px 5px 0px;
 }
