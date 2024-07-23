@@ -31,27 +31,16 @@ h1 {
   text-align: left;
 }
 h1 object {
-  width: 1.4rem;
-  vertical-align: baseline;
+  width: 1.5rem;
   margin-right: 15px;
 }
 p {
   font-weight: 600;
   text-align: left;
-  margin: 20px 50px 0px 0px;
 }
 hr {
   margin-top: 20px;
   border-color: hsla(0, 0%, 90%, 0.3);
-}
-button {
-  border: none;
-  background-color: transparent;
-  border-radius: 100%;
-  height: 30px;
-  cursor: pointer;
-  float: right;
-  margin-top: -2.5em;
 }
 .icon-plus {
   content: url(assets/images/icon-plus.svg);
@@ -64,12 +53,19 @@ label {
   color: hsl(0, 0%, 50%);
   margin-top: 10px;
 }
-.hide-text {
+.summary {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 18px 0px 5px 0px;
+}
+
+/* .hide-text {
   display: none;
 }
 .show-text {
   display: block;
-}
+} */
 
 /* FOR DESKTOP */
 /* LEANDRO DO NOT FORGET TO CHANGE MIN-WIDTH TO 375px */
