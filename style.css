@@ -34,18 +34,29 @@ h1 object {
   width: 1.5rem;
   margin-right: 15px;
 }
-p {
-  font-weight: 600;
-  text-align: left;
-}
+
 hr {
   margin-top: 20px;
   border-color: hsla(0, 0%, 90%, 0.3);
 }
-.icon-plus {
-  content: url(assets/images/icon-plus.svg);
+
+.question p {
+  font-weight: 600;
+  text-align: left;
 }
-label {
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0px 5px 0px;
+  transition: color 0.4s;
+}
+.question:hover {
+  cursor: pointer;
+  color: hsl(281, 83%, 54%);
+}
+
+.answer p {
   font-weight: 400;
   text-align: left;
   font-size: 13px;
@@ -53,28 +64,33 @@ label {
   color: hsl(0, 0%, 50%);
   margin-top: 10px;
 }
-.summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 18px 0px 5px 0px;
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s;
 }
 
-/* .hide-text {
-  display: none;
+.active {
+  /* arbitrary big value to make the hight fit the content */
+  max-height: 1000px;
 }
-.show-text {
-  display: block;
-} */
 
 /* FOR DESKTOP */
-/* LEANDRO DO NOT FORGET TO CHANGE MIN-WIDTH TO 375px */
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 375px) {
   .background-pattern {
     background-image: url(/assets/images/background-pattern-desktop.svg);
   }
   #main-container {
     width: 500px;
+    height: 475px;
+  }
+  h1 {
+    text-align: left;
+    font-size: 3rem;
+  }
+  h1 object {
+    vertical-align: middle;
+    width: 2.5rem;
   }
 }
 
