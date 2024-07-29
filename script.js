@@ -9,7 +9,7 @@ blocks.forEach((block) => {
     currentAnswer.classList.toggle("active");
     if (currentAnswer.classList.contains("active")) {
       icon.src = "./assets/images/icon-minus.svg";
-      currentAnswer.style.maxHeight = currentAnswer.scrollHeight + "px";
+      currentAnswer.style.maxHeight = currentAnswer.scrollHeight + "px"; //I do not understand this line
     } else {
       icon.src = "./assets/images/icon-plus.svg";
       currentAnswer.style.maxHeight = 0;
